@@ -1,0 +1,88 @@
+[0.043s] Invoking command in '/home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/build/TEST01': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/peerawat/fra501_ws/install/pkg1:/opt/ros/humble /usr/bin/cmake /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/src/TEST01 -DCMAKE_INSTALL_PREFIX=/home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/TEST01
+[0.363s] -- The C compiler identification is GNU 11.4.0
+[0.645s] -- The CXX compiler identification is GNU 11.4.0
+[0.688s] -- Detecting C compiler ABI info
+[0.902s] -- Detecting C compiler ABI info - done
+[0.927s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.931s] -- Detecting C compile features
+[0.939s] -- Detecting C compile features - done
+[0.952s] -- Detecting CXX compiler ABI info
+[1.217s] -- Detecting CXX compiler ABI info - done
+[1.251s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.251s] -- Detecting CXX compile features
+[1.251s] -- Detecting CXX compile features - done
+[1.264s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.738s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.226s] -- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)
+[2.467s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.491s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.526s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.633s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.787s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.083s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.098s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.516s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.605s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.723s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.792s] -- Looking for pthread.h
+[4.082s] -- Looking for pthread.h - found
+[4.090s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.268s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.272s] -- Found Threads: TRUE  
+[4.742s] -- Found rclpy: 3.3.9 (/opt/ros/humble/share/rclpy/cmake)
+[4.985s] WARNING: Package name "TEST01" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[5.194s] WARNING: Package name "TEST01" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[5.228s] -- Configuring done
+[5.248s] -- Generating done
+[5.252s] -- Build files have been written to: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/build/TEST01
+[5.278s] Invoked command in '/home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/build/TEST01' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/peerawat/fra501_ws/install/pkg1:/opt/ros/humble /usr/bin/cmake /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/src/TEST01 -DCMAKE_INSTALL_PREFIX=/home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/TEST01
+[5.279s] Invoking command in '/home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/build/TEST01': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/peerawat/fra501_ws/install/pkg1:/opt/ros/humble /usr/bin/cmake --build /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/build/TEST01 -- -j2 -l2
+[5.440s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_node_test.dir/src/cpp_node.cpp.o[0m
+[5.455s] [ 50%] Built target ament_cmake_python_copy_TEST01
+[6.250s] running egg_info
+[6.252s] creating TEST01.egg-info
+[6.252s] writing TEST01.egg-info/PKG-INFO
+[6.253s] writing dependency_links to TEST01.egg-info/dependency_links.txt
+[6.253s] writing top-level names to TEST01.egg-info/top_level.txt
+[6.253s] writing manifest file 'TEST01.egg-info/SOURCES.txt'
+[6.262s] reading manifest file 'TEST01.egg-info/SOURCES.txt'
+[6.263s] writing manifest file 'TEST01.egg-info/SOURCES.txt'
+[6.332s] [ 50%] Built target ament_cmake_python_build_TEST01_egg
+[6.709s] [100%] [32m[1mLinking CXX executable cpp_node_test[0m
+[6.941s] [100%] Built target cpp_node_test
+[6.985s] Invoked command in '/home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/build/TEST01' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/peerawat/fra501_ws/install/pkg1:/opt/ros/humble /usr/bin/cmake --build /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/build/TEST01 -- -j2 -l2
+[7.059s] Invoking command in '/home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/build/TEST01': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/peerawat/fra501_ws/install/pkg1:/opt/ros/humble /usr/bin/cmake --install /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/build/TEST01
+[7.091s] -- Install configuration: ""
+[7.096s] -- Installing: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/TEST01/share/TEST01/environment/pythonpath.sh
+[7.096s] -- Installing: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/TEST01/share/TEST01/environment/pythonpath.dsv
+[7.096s] -- Installing: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/TEST01/local/lib/python3.10/dist-packages/TEST01-0.0.0-py3.10.egg-info
+[7.096s] -- Installing: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/TEST01/local/lib/python3.10/dist-packages/TEST01-0.0.0-py3.10.egg-info/PKG-INFO
+[7.096s] -- Installing: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/TEST01/local/lib/python3.10/dist-packages/TEST01-0.0.0-py3.10.egg-info/dependency_links.txt
+[7.096s] -- Installing: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/TEST01/local/lib/python3.10/dist-packages/TEST01-0.0.0-py3.10.egg-info/SOURCES.txt
+[7.097s] -- Installing: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/TEST01/local/lib/python3.10/dist-packages/TEST01-0.0.0-py3.10.egg-info/top_level.txt
+[7.097s] -- Installing: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/TEST01/local/lib/python3.10/dist-packages/TEST01
+[7.097s] -- Installing: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/TEST01/local/lib/python3.10/dist-packages/TEST01/dummy_module.py
+[7.097s] -- Installing: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/TEST01/local/lib/python3.10/dist-packages/TEST01/__init__.py
+[7.181s] Listing '/home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/TEST01/local/lib/python3.10/dist-packages/TEST01'...
+[7.181s] Compiling '/home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/TEST01/local/lib/python3.10/dist-packages/TEST01/__init__.py'...
+[7.181s] Compiling '/home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/TEST01/local/lib/python3.10/dist-packages/TEST01/dummy_module.py'...
+[7.209s] -- Installing: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/TEST01/lib/TEST01/dummy_script.py
+[7.210s] -- Installing: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/TEST01/lib/TEST01/cpp_node_test
+[7.210s] -- Set runtime path of "/home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/TEST01/lib/TEST01/cpp_node_test" to ""
+[7.210s] -- Up-to-date: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/TEST01/share/TEST01
+[7.210s] -- Installing: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/TEST01/share/ament_index/resource_index/package_run_dependencies/TEST01
+[7.210s] -- Installing: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/TEST01/share/ament_index/resource_index/parent_prefix_path/TEST01
+[7.210s] -- Installing: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/TEST01/share/TEST01/environment/ament_prefix_path.sh
+[7.211s] -- Installing: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/TEST01/share/TEST01/environment/ament_prefix_path.dsv
+[7.211s] -- Installing: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/TEST01/share/TEST01/environment/path.sh
+[7.211s] -- Installing: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/TEST01/share/TEST01/environment/path.dsv
+[7.211s] -- Installing: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/TEST01/share/TEST01/local_setup.bash
+[7.213s] -- Installing: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/TEST01/share/TEST01/local_setup.sh
+[7.213s] -- Installing: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/TEST01/share/TEST01/local_setup.zsh
+[7.213s] -- Installing: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/TEST01/share/TEST01/local_setup.dsv
+[7.213s] -- Installing: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/TEST01/share/TEST01/package.dsv
+[7.213s] -- Installing: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/TEST01/share/ament_index/resource_index/packages/TEST01
+[7.213s] -- Installing: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/TEST01/share/TEST01/cmake/TEST01Config.cmake
+[7.214s] -- Installing: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/TEST01/share/TEST01/cmake/TEST01Config-version.cmake
+[7.214s] -- Installing: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/TEST01/share/TEST01/package.xml
+[7.218s] Invoked command in '/home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/build/TEST01' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/peerawat/fra501_ws/install/pkg1:/opt/ros/humble /usr/bin/cmake --install /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/build/TEST01

@@ -1,0 +1,86 @@
+[0.027s] Invoking command in '/home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/build/exam1_turtle_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/peerawat/fra501_ws/install/pkg1:/opt/ros/humble /usr/bin/cmake /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/src/exam1_turtle_control -DCMAKE_INSTALL_PREFIX=/home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/exam1_turtle_control
+[0.175s] -- The C compiler identification is GNU 11.4.0
+[0.309s] -- The CXX compiler identification is GNU 11.4.0
+[0.335s] -- Detecting C compiler ABI info
+[0.574s] -- Detecting C compiler ABI info - done
+[0.598s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.599s] -- Detecting C compile features
+[0.600s] -- Detecting C compile features - done
+[0.612s] -- Detecting CXX compiler ABI info
+[0.931s] -- Detecting CXX compiler ABI info - done
+[0.947s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.948s] -- Detecting CXX compile features
+[0.949s] -- Detecting CXX compile features - done
+[0.956s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.449s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.793s] -- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)
+[1.917s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.918s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.965s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.965s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.011s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.216s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.216s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.472s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.541s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.664s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.710s] -- Looking for pthread.h
+[2.939s] -- Looking for pthread.h - found
+[2.944s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.117s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.119s] -- Found Threads: TRUE  
+[3.567s] -- Found rclpy: 3.3.9 (/opt/ros/humble/share/rclpy/cmake)
+[4.095s] -- Configuring done
+[4.117s] -- Generating done
+[4.122s] -- Build files have been written to: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/build/exam1_turtle_control
+[4.147s] Invoked command in '/home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/build/exam1_turtle_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/peerawat/fra501_ws/install/pkg1:/opt/ros/humble /usr/bin/cmake /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/src/exam1_turtle_control -DCMAKE_INSTALL_PREFIX=/home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/exam1_turtle_control
+[4.148s] Invoking command in '/home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/build/exam1_turtle_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/peerawat/fra501_ws/install/pkg1:/opt/ros/humble /usr/bin/cmake --build /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/build/exam1_turtle_control -- -j2 -l2
+[4.285s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_node_test.dir/src/cpp_node.cpp.o[0m
+[4.285s] [ 50%] Built target ament_cmake_python_copy_exam1_turtle_control
+[5.261s] running egg_info
+[5.264s] creating exam1_turtle_control.egg-info
+[5.265s] writing exam1_turtle_control.egg-info/PKG-INFO
+[5.268s] writing dependency_links to exam1_turtle_control.egg-info/dependency_links.txt
+[5.269s] writing top-level names to exam1_turtle_control.egg-info/top_level.txt
+[5.271s] writing manifest file 'exam1_turtle_control.egg-info/SOURCES.txt'
+[5.279s] reading manifest file 'exam1_turtle_control.egg-info/SOURCES.txt'
+[5.282s] writing manifest file 'exam1_turtle_control.egg-info/SOURCES.txt'
+[5.359s] [ 50%] Built target ament_cmake_python_build_exam1_turtle_control_egg
+[5.508s] [100%] [32m[1mLinking CXX executable cpp_node_test[0m
+[5.737s] [100%] Built target cpp_node_test
+[5.773s] Invoked command in '/home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/build/exam1_turtle_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/peerawat/fra501_ws/install/pkg1:/opt/ros/humble /usr/bin/cmake --build /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/build/exam1_turtle_control -- -j2 -l2
+[5.914s] Invoking command in '/home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/build/exam1_turtle_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/peerawat/fra501_ws/install/pkg1:/opt/ros/humble /usr/bin/cmake --install /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/build/exam1_turtle_control
+[5.932s] -- Install configuration: ""
+[5.933s] -- Installing: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/exam1_turtle_control/share/exam1_turtle_control/environment/pythonpath.sh
+[5.935s] -- Installing: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/exam1_turtle_control/share/exam1_turtle_control/environment/pythonpath.dsv
+[5.938s] -- Installing: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/exam1_turtle_control/local/lib/python3.10/dist-packages/exam1_turtle_control-0.0.0-py3.10.egg-info
+[5.940s] -- Installing: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/exam1_turtle_control/local/lib/python3.10/dist-packages/exam1_turtle_control-0.0.0-py3.10.egg-info/PKG-INFO
+[5.942s] -- Installing: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/exam1_turtle_control/local/lib/python3.10/dist-packages/exam1_turtle_control-0.0.0-py3.10.egg-info/dependency_links.txt
+[5.942s] -- Installing: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/exam1_turtle_control/local/lib/python3.10/dist-packages/exam1_turtle_control-0.0.0-py3.10.egg-info/SOURCES.txt
+[5.943s] -- Installing: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/exam1_turtle_control/local/lib/python3.10/dist-packages/exam1_turtle_control-0.0.0-py3.10.egg-info/top_level.txt
+[5.943s] -- Installing: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/exam1_turtle_control/local/lib/python3.10/dist-packages/exam1_turtle_control
+[5.943s] -- Installing: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/exam1_turtle_control/local/lib/python3.10/dist-packages/exam1_turtle_control/dummy_module.py
+[5.943s] -- Installing: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/exam1_turtle_control/local/lib/python3.10/dist-packages/exam1_turtle_control/__init__.py
+[6.057s] Listing '/home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/exam1_turtle_control/local/lib/python3.10/dist-packages/exam1_turtle_control'...
+[6.057s] Compiling '/home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/exam1_turtle_control/local/lib/python3.10/dist-packages/exam1_turtle_control/__init__.py'...
+[6.057s] Compiling '/home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/exam1_turtle_control/local/lib/python3.10/dist-packages/exam1_turtle_control/dummy_module.py'...
+[6.068s] -- Installing: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/exam1_turtle_control/lib/exam1_turtle_control/dummy_script.py
+[6.069s] -- Installing: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/exam1_turtle_control/lib/exam1_turtle_control/cpp_node_test
+[6.070s] -- Set runtime path of "/home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/exam1_turtle_control/lib/exam1_turtle_control/cpp_node_test" to ""
+[6.073s] -- Up-to-date: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/exam1_turtle_control/share/exam1_turtle_control
+[6.076s] -- Installing: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/exam1_turtle_control/share/ament_index/resource_index/package_run_dependencies/exam1_turtle_control
+[6.076s] -- Installing: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/exam1_turtle_control/share/ament_index/resource_index/parent_prefix_path/exam1_turtle_control
+[6.076s] -- Installing: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/exam1_turtle_control/share/exam1_turtle_control/environment/ament_prefix_path.sh
+[6.076s] -- Installing: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/exam1_turtle_control/share/exam1_turtle_control/environment/ament_prefix_path.dsv
+[6.077s] -- Installing: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/exam1_turtle_control/share/exam1_turtle_control/environment/path.sh
+[6.077s] -- Installing: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/exam1_turtle_control/share/exam1_turtle_control/environment/path.dsv
+[6.078s] -- Installing: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/exam1_turtle_control/share/exam1_turtle_control/local_setup.bash
+[6.078s] -- Installing: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/exam1_turtle_control/share/exam1_turtle_control/local_setup.sh
+[6.079s] -- Installing: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/exam1_turtle_control/share/exam1_turtle_control/local_setup.zsh
+[6.080s] -- Installing: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/exam1_turtle_control/share/exam1_turtle_control/local_setup.dsv
+[6.080s] -- Installing: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/exam1_turtle_control/share/exam1_turtle_control/package.dsv
+[6.080s] -- Installing: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/exam1_turtle_control/share/ament_index/resource_index/packages/exam1_turtle_control
+[6.081s] -- Installing: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/exam1_turtle_control/share/exam1_turtle_control/cmake/exam1_turtle_controlConfig.cmake
+[6.081s] -- Installing: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/exam1_turtle_control/share/exam1_turtle_control/cmake/exam1_turtle_controlConfig-version.cmake
+[6.081s] -- Installing: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/exam1_turtle_control/share/exam1_turtle_control/package.xml
+[6.089s] Invoked command in '/home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/build/exam1_turtle_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/peerawat/fra501_ws/install/pkg1:/opt/ros/humble /usr/bin/cmake --install /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/build/exam1_turtle_control

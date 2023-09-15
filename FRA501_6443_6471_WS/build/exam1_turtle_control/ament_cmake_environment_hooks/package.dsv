@@ -1,0 +1,4 @@
+source;share/exam1_turtle_control/local_setup.bash
+source;share/exam1_turtle_control/local_setup.dsv
+source;share/exam1_turtle_control/local_setup.sh
+source;share/exam1_turtle_control/local_setup.zsh

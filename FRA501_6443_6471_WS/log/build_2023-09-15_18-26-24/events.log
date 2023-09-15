@@ -1,0 +1,170 @@
+[0.000000] (-) TimerEvent: {}
+[0.000408] (-) JobUnselected: {'identifier': 'turtlesimplus_control_exam1'}
+[0.000495] (TEST01) JobQueued: {'identifier': 'TEST01', 'dependencies': OrderedDict()}
+[0.000551] (TEST01) JobStarted: {'identifier': 'TEST01'}
+[0.041536] (TEST01) JobProgress: {'identifier': 'TEST01', 'progress': 'cmake'}
+[0.042142] (TEST01) Command: {'cmd': ['/usr/bin/cmake', '/home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/src/TEST01', '-DCMAKE_INSTALL_PREFIX=/home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/TEST01'], 'cwd': '/home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/build/TEST01', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'peerawat'), ('LC_TIME', 'th_TH.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/peerawat/fra501_ws/install/turtlesim_plus_interfaces/lib:/home/peerawat/fra501_ws/install/turtlesim_interfaces/lib:/home/peerawat/fra501_ws/install/my_controller_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/peerawat'), ('OLDPWD', '/home/peerawat'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'th_TH.UTF-8'), ('SYSTEMD_EXEC_PID', '1711'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install:/home/peerawat/fra501_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'peerawat'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'peerawat'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Peerawat-Sant:@/tmp/.ICE-unix/1695,unix/Peerawat-Sant:/tmp/.ICE-unix/1695'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'th_TH.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/53a305e3_aaa7_4746_b2c3_6ca7a17079d7'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'th_TH.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.WRVDB2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.309'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/peerawat/fra501_ws/install/turtlesim_plus_interfaces:/home/peerawat/fra501_ws/install/turtlesim_plus:/home/peerawat/fra501_ws/install/turtlesim_interfaces:/home/peerawat/fra501_ws/install/turtlesim_control:/home/peerawat/fra501_ws/install/pkg1:/home/peerawat/fra501_ws/install/my_controller_interfaces:/home/peerawat/fra501_ws/install/my_controller:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'th_TH.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'th_TH.UTF-8'), ('LC_IDENTIFICATION', 'th_TH.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/build/TEST01'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/peerawat/fra501_ws/install/turtlesim_plus_interfaces/local/lib/python3.10/dist-packages:/home/peerawat/fra501_ws/install/turtlesim_plus/local/lib/python3.10/dist-packages:/home/peerawat/fra501_ws/install/turtlesim_interfaces/local/lib/python3.10/dist-packages:/home/peerawat/fra501_ws/install/turtlesim_control/local/lib/python3.10/dist-packages:/home/peerawat/fra501_ws/install/pkg1/lib/python3.10/site-packages:/home/peerawat/fra501_ws/install/my_controller_interfaces/local/lib/python3.10/dist-packages:/home/peerawat/fra501_ws/install/my_controller/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'th_TH.UTF-8'), ('LC_PAPER', 'th_TH.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/peerawat/fra501_ws/install/turtlesim_plus_interfaces:/home/peerawat/fra501_ws/install/turtlesim_plus:/home/peerawat/fra501_ws/install/turtlesim_interfaces:/home/peerawat/fra501_ws/install/turtlesim_control:/home/peerawat/fra501_ws/install/my_controller_interfaces:/home/peerawat/fra501_ws/install/my_controller:/home/peerawat/fra501_ws/install/pkg1:/opt/ros/humble')]), 'shell': False}
+[0.096923] (-) TimerEvent: {}
+[0.197626] (-) TimerEvent: {}
+[0.298382] (-) TimerEvent: {}
+[0.362960] (TEST01) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.398851] (-) TimerEvent: {}
+[0.499956] (-) TimerEvent: {}
+[0.601736] (-) TimerEvent: {}
+[0.644826] (TEST01) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.688644] (TEST01) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.701935] (-) TimerEvent: {}
+[0.802989] (-) TimerEvent: {}
+[0.902023] (TEST01) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.904077] (-) TimerEvent: {}
+[0.927023] (TEST01) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.931472] (TEST01) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.939016] (TEST01) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.952167] (TEST01) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.005897] (-) TimerEvent: {}
+[1.106902] (-) TimerEvent: {}
+[1.213965] (-) TimerEvent: {}
+[1.217748] (TEST01) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.251226] (TEST01) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.251669] (TEST01) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.251843] (TEST01) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.264369] (TEST01) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.315679] (-) TimerEvent: {}
+[1.416280] (-) TimerEvent: {}
+[1.516949] (-) TimerEvent: {}
+[1.618072] (-) TimerEvent: {}
+[1.718650] (-) TimerEvent: {}
+[1.737789] (TEST01) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[1.818807] (-) TimerEvent: {}
+[1.919347] (-) TimerEvent: {}
+[2.022275] (-) TimerEvent: {}
+[2.122842] (-) TimerEvent: {}
+[2.223808] (-) TimerEvent: {}
+[2.225977] (TEST01) StdoutLine: {'line': b'-- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.324496] (-) TimerEvent: {}
+[2.426102] (-) TimerEvent: {}
+[2.467388] (TEST01) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.491207] (TEST01) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.526109] (TEST01) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.526492] (-) TimerEvent: {}
+[2.627127] (-) TimerEvent: {}
+[2.632974] (TEST01) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.728226] (-) TimerEvent: {}
+[2.787367] (TEST01) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.831849] (-) TimerEvent: {}
+[2.933081] (-) TimerEvent: {}
+[3.034769] (-) TimerEvent: {}
+[3.083342] (TEST01) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[3.098019] (TEST01) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.135532] (-) TimerEvent: {}
+[3.236907] (-) TimerEvent: {}
+[3.338550] (-) TimerEvent: {}
+[3.439599] (-) TimerEvent: {}
+[3.515939] (TEST01) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[3.540020] (-) TimerEvent: {}
+[3.605280] (TEST01) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[3.640254] (-) TimerEvent: {}
+[3.723290] (TEST01) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.741920] (-) TimerEvent: {}
+[3.792002] (TEST01) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.842441] (-) TimerEvent: {}
+[3.944129] (-) TimerEvent: {}
+[4.045132] (-) TimerEvent: {}
+[4.082296] (TEST01) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[4.090468] (TEST01) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[4.146448] (-) TimerEvent: {}
+[4.248611] (-) TimerEvent: {}
+[4.268692] (TEST01) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[4.272212] (TEST01) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[4.349033] (-) TimerEvent: {}
+[4.449863] (-) TimerEvent: {}
+[4.550442] (-) TimerEvent: {}
+[4.651239] (-) TimerEvent: {}
+[4.742690] (TEST01) StdoutLine: {'line': b'-- Found rclpy: 3.3.9 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[4.751448] (-) TimerEvent: {}
+[4.851905] (-) TimerEvent: {}
+[4.952428] (-) TimerEvent: {}
+[4.985582] (TEST01) StderrLine: {'line': b'WARNING: Package name "TEST01" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.\n'}
+[5.052629] (-) TimerEvent: {}
+[5.153282] (-) TimerEvent: {}
+[5.194105] (TEST01) StderrLine: {'line': b'WARNING: Package name "TEST01" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.\n'}
+[5.228380] (TEST01) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.248379] (TEST01) StdoutLine: {'line': b'-- Generating done\n'}
+[5.252649] (TEST01) StdoutLine: {'line': b'-- Build files have been written to: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/build/TEST01\n'}
+[5.257270] (-) TimerEvent: {}
+[5.277710] (TEST01) CommandEnded: {'returncode': 0}
+[5.278567] (TEST01) JobProgress: {'identifier': 'TEST01', 'progress': 'build'}
+[5.278680] (TEST01) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/build/TEST01', '--', '-j2', '-l2'], 'cwd': '/home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/build/TEST01', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'peerawat'), ('LC_TIME', 'th_TH.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/peerawat/fra501_ws/install/turtlesim_plus_interfaces/lib:/home/peerawat/fra501_ws/install/turtlesim_interfaces/lib:/home/peerawat/fra501_ws/install/my_controller_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/peerawat'), ('OLDPWD', '/home/peerawat'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'th_TH.UTF-8'), ('SYSTEMD_EXEC_PID', '1711'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install:/home/peerawat/fra501_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'peerawat'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'peerawat'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Peerawat-Sant:@/tmp/.ICE-unix/1695,unix/Peerawat-Sant:/tmp/.ICE-unix/1695'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'th_TH.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/53a305e3_aaa7_4746_b2c3_6ca7a17079d7'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'th_TH.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.WRVDB2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.309'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/peerawat/fra501_ws/install/turtlesim_plus_interfaces:/home/peerawat/fra501_ws/install/turtlesim_plus:/home/peerawat/fra501_ws/install/turtlesim_interfaces:/home/peerawat/fra501_ws/install/turtlesim_control:/home/peerawat/fra501_ws/install/pkg1:/home/peerawat/fra501_ws/install/my_controller_interfaces:/home/peerawat/fra501_ws/install/my_controller:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'th_TH.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'th_TH.UTF-8'), ('LC_IDENTIFICATION', 'th_TH.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/build/TEST01'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/peerawat/fra501_ws/install/turtlesim_plus_interfaces/local/lib/python3.10/dist-packages:/home/peerawat/fra501_ws/install/turtlesim_plus/local/lib/python3.10/dist-packages:/home/peerawat/fra501_ws/install/turtlesim_interfaces/local/lib/python3.10/dist-packages:/home/peerawat/fra501_ws/install/turtlesim_control/local/lib/python3.10/dist-packages:/home/peerawat/fra501_ws/install/pkg1/lib/python3.10/site-packages:/home/peerawat/fra501_ws/install/my_controller_interfaces/local/lib/python3.10/dist-packages:/home/peerawat/fra501_ws/install/my_controller/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'th_TH.UTF-8'), ('LC_PAPER', 'th_TH.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/peerawat/fra501_ws/install/turtlesim_plus_interfaces:/home/peerawat/fra501_ws/install/turtlesim_plus:/home/peerawat/fra501_ws/install/turtlesim_interfaces:/home/peerawat/fra501_ws/install/turtlesim_control:/home/peerawat/fra501_ws/install/my_controller_interfaces:/home/peerawat/fra501_ws/install/my_controller:/home/peerawat/fra501_ws/install/pkg1:/opt/ros/humble')]), 'shell': False}
+[5.358047] (-) TimerEvent: {}
+[5.440282] (TEST01) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/cpp_node_test.dir/src/cpp_node.cpp.o\x1b[0m\n'}
+[5.454856] (TEST01) StdoutLine: {'line': b'[ 50%] Built target ament_cmake_python_copy_TEST01\n'}
+[5.459993] (-) TimerEvent: {}
+[5.565776] (-) TimerEvent: {}
+[5.668384] (-) TimerEvent: {}
+[5.770792] (-) TimerEvent: {}
+[5.872704] (-) TimerEvent: {}
+[5.973580] (-) TimerEvent: {}
+[6.074095] (-) TimerEvent: {}
+[6.174856] (-) TimerEvent: {}
+[6.250094] (TEST01) StdoutLine: {'line': b'running egg_info\n'}
+[6.251953] (TEST01) StdoutLine: {'line': b'creating TEST01.egg-info\n'}
+[6.252271] (TEST01) StdoutLine: {'line': b'writing TEST01.egg-info/PKG-INFO\n'}
+[6.253064] (TEST01) StdoutLine: {'line': b'writing dependency_links to TEST01.egg-info/dependency_links.txt\n'}
+[6.253218] (TEST01) StdoutLine: {'line': b'writing top-level names to TEST01.egg-info/top_level.txt\n'}
+[6.253921] (TEST01) StdoutLine: {'line': b"writing manifest file 'TEST01.egg-info/SOURCES.txt'\n"}
+[6.262568] (TEST01) StdoutLine: {'line': b"reading manifest file 'TEST01.egg-info/SOURCES.txt'\n"}
+[6.263488] (TEST01) StdoutLine: {'line': b"writing manifest file 'TEST01.egg-info/SOURCES.txt'\n"}
+[6.284760] (-) TimerEvent: {}
+[6.331921] (TEST01) StdoutLine: {'line': b'[ 50%] Built target ament_cmake_python_build_TEST01_egg\n'}
+[6.385083] (-) TimerEvent: {}
+[6.485935] (-) TimerEvent: {}
+[6.587402] (-) TimerEvent: {}
+[6.688441] (-) TimerEvent: {}
+[6.708821] (TEST01) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable cpp_node_test\x1b[0m\n'}
+[6.788772] (-) TimerEvent: {}
+[6.889850] (-) TimerEvent: {}
+[6.941625] (TEST01) StdoutLine: {'line': b'[100%] Built target cpp_node_test\n'}
+[6.984731] (TEST01) CommandEnded: {'returncode': 0}
+[6.991865] (-) TimerEvent: {}
+[7.040242] (TEST01) JobProgress: {'identifier': 'TEST01', 'progress': 'install'}
+[7.059121] (TEST01) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/build/TEST01'], 'cwd': '/home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/build/TEST01', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'peerawat'), ('LC_TIME', 'th_TH.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/peerawat/fra501_ws/install/turtlesim_plus_interfaces/lib:/home/peerawat/fra501_ws/install/turtlesim_interfaces/lib:/home/peerawat/fra501_ws/install/my_controller_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/peerawat'), ('OLDPWD', '/home/peerawat'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'th_TH.UTF-8'), ('SYSTEMD_EXEC_PID', '1711'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install:/home/peerawat/fra501_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'peerawat'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'peerawat'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Peerawat-Sant:@/tmp/.ICE-unix/1695,unix/Peerawat-Sant:/tmp/.ICE-unix/1695'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'th_TH.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/53a305e3_aaa7_4746_b2c3_6ca7a17079d7'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'th_TH.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.WRVDB2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.309'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/peerawat/fra501_ws/install/turtlesim_plus_interfaces:/home/peerawat/fra501_ws/install/turtlesim_plus:/home/peerawat/fra501_ws/install/turtlesim_interfaces:/home/peerawat/fra501_ws/install/turtlesim_control:/home/peerawat/fra501_ws/install/pkg1:/home/peerawat/fra501_ws/install/my_controller_interfaces:/home/peerawat/fra501_ws/install/my_controller:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'th_TH.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'th_TH.UTF-8'), ('LC_IDENTIFICATION', 'th_TH.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/build/TEST01'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/peerawat/fra501_ws/install/turtlesim_plus_interfaces/local/lib/python3.10/dist-packages:/home/peerawat/fra501_ws/install/turtlesim_plus/local/lib/python3.10/dist-packages:/home/peerawat/fra501_ws/install/turtlesim_interfaces/local/lib/python3.10/dist-packages:/home/peerawat/fra501_ws/install/turtlesim_control/local/lib/python3.10/dist-packages:/home/peerawat/fra501_ws/install/pkg1/lib/python3.10/site-packages:/home/peerawat/fra501_ws/install/my_controller_interfaces/local/lib/python3.10/dist-packages:/home/peerawat/fra501_ws/install/my_controller/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'th_TH.UTF-8'), ('LC_PAPER', 'th_TH.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/peerawat/fra501_ws/install/turtlesim_plus_interfaces:/home/peerawat/fra501_ws/install/turtlesim_plus:/home/peerawat/fra501_ws/install/turtlesim_interfaces:/home/peerawat/fra501_ws/install/turtlesim_control:/home/peerawat/fra501_ws/install/my_controller_interfaces:/home/peerawat/fra501_ws/install/my_controller:/home/peerawat/fra501_ws/install/pkg1:/opt/ros/humble')]), 'shell': False}
+[7.091593] (TEST01) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.091954] (-) TimerEvent: {}
+[7.095505] (TEST01) StdoutLine: {'line': b'-- Installing: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/TEST01/share/TEST01/environment/pythonpath.sh\n'}
+[7.096226] (TEST01) StdoutLine: {'line': b'-- Installing: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/TEST01/share/TEST01/environment/pythonpath.dsv\n'}
+[7.096398] (TEST01) StdoutLine: {'line': b'-- Installing: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/TEST01/local/lib/python3.10/dist-packages/TEST01-0.0.0-py3.10.egg-info\n'}
+[7.096561] (TEST01) StdoutLine: {'line': b'-- Installing: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/TEST01/local/lib/python3.10/dist-packages/TEST01-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[7.096700] (TEST01) StdoutLine: {'line': b'-- Installing: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/TEST01/local/lib/python3.10/dist-packages/TEST01-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[7.096872] (TEST01) StdoutLine: {'line': b'-- Installing: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/TEST01/local/lib/python3.10/dist-packages/TEST01-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[7.097032] (TEST01) StdoutLine: {'line': b'-- Installing: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/TEST01/local/lib/python3.10/dist-packages/TEST01-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[7.097353] (TEST01) StdoutLine: {'line': b'-- Installing: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/TEST01/local/lib/python3.10/dist-packages/TEST01\n'}
+[7.097452] (TEST01) StdoutLine: {'line': b'-- Installing: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/TEST01/local/lib/python3.10/dist-packages/TEST01/dummy_module.py\n'}
+[7.097554] (TEST01) StdoutLine: {'line': b'-- Installing: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/TEST01/local/lib/python3.10/dist-packages/TEST01/__init__.py\n'}
+[7.180703] (TEST01) StdoutLine: {'line': b"Listing '/home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/TEST01/local/lib/python3.10/dist-packages/TEST01'...\n"}
+[7.181492] (TEST01) StdoutLine: {'line': b"Compiling '/home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/TEST01/local/lib/python3.10/dist-packages/TEST01/__init__.py'...\n"}
+[7.181680] (TEST01) StdoutLine: {'line': b"Compiling '/home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/TEST01/local/lib/python3.10/dist-packages/TEST01/dummy_module.py'...\n"}
+[7.192348] (-) TimerEvent: {}
+[7.209703] (TEST01) StdoutLine: {'line': b'-- Installing: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/TEST01/lib/TEST01/dummy_script.py\n'}
+[7.210175] (TEST01) StdoutLine: {'line': b'-- Installing: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/TEST01/lib/TEST01/cpp_node_test\n'}
+[7.210366] (TEST01) StdoutLine: {'line': b'-- Set runtime path of "/home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/TEST01/lib/TEST01/cpp_node_test" to ""\n'}
+[7.210516] (TEST01) StdoutLine: {'line': b'-- Up-to-date: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/TEST01/share/TEST01\n'}
+[7.210657] (TEST01) StdoutLine: {'line': b'-- Installing: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/TEST01/share/ament_index/resource_index/package_run_dependencies/TEST01\n'}
+[7.210823] (TEST01) StdoutLine: {'line': b'-- Installing: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/TEST01/share/ament_index/resource_index/parent_prefix_path/TEST01\n'}
+[7.210963] (TEST01) StdoutLine: {'line': b'-- Installing: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/TEST01/share/TEST01/environment/ament_prefix_path.sh\n'}
+[7.211099] (TEST01) StdoutLine: {'line': b'-- Installing: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/TEST01/share/TEST01/environment/ament_prefix_path.dsv\n'}
+[7.211235] (TEST01) StdoutLine: {'line': b'-- Installing: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/TEST01/share/TEST01/environment/path.sh\n'}
+[7.211420] (TEST01) StdoutLine: {'line': b'-- Installing: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/TEST01/share/TEST01/environment/path.dsv\n'}
+[7.211560] (TEST01) StdoutLine: {'line': b'-- Installing: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/TEST01/share/TEST01/local_setup.bash\n'}
+[7.213126] (TEST01) StdoutLine: {'line': b'-- Installing: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/TEST01/share/TEST01/local_setup.sh\n'}
+[7.213335] (TEST01) StdoutLine: {'line': b'-- Installing: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/TEST01/share/TEST01/local_setup.zsh\n'}
+[7.213473] (TEST01) StdoutLine: {'line': b'-- Installing: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/TEST01/share/TEST01/local_setup.dsv\n'}
+[7.213609] (TEST01) StdoutLine: {'line': b'-- Installing: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/TEST01/share/TEST01/package.dsv\n'}
+[7.213823] (TEST01) StdoutLine: {'line': b'-- Installing: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/TEST01/share/ament_index/resource_index/packages/TEST01\n'}
+[7.213959] (TEST01) StdoutLine: {'line': b'-- Installing: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/TEST01/share/TEST01/cmake/TEST01Config.cmake\n'}
+[7.214096] (TEST01) StdoutLine: {'line': b'-- Installing: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/TEST01/share/TEST01/cmake/TEST01Config-version.cmake\n'}
+[7.214232] (TEST01) StdoutLine: {'line': b'-- Installing: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/TEST01/share/TEST01/package.xml\n'}
+[7.218094] (TEST01) CommandEnded: {'returncode': 0}
+[7.293707] (-) TimerEvent: {}
+[7.408698] (-) TimerEvent: {}
+[7.422438] (TEST01) JobEnded: {'identifier': 'TEST01', 'rc': 0}
+[7.423529] (-) EventReactorShutdown: {}

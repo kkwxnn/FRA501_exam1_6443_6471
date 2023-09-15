@@ -1,9 +1,0 @@
-{
-  "package_name": "turtlesim_plus_interfaces",
-  "non_idl_tuples": [
-    "/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/src/turtlesim_plus/turtlesim_plus_interfaces:msg/ScannerData.msg",
-    "/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/src/turtlesim_plus/turtlesim_plus_interfaces:msg/ScannerDataArray.msg",
-    "/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/src/turtlesim_plus/turtlesim_plus_interfaces:srv/GivePosition.srv",
-    "/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/src/turtlesim_plus/turtlesim_plus_interfaces:action/GetData.action"
-  ]
-}

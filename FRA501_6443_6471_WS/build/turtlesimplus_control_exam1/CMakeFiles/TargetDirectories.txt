@@ -1,9 +1,0 @@
-/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/build/turtlesimplus_control_exam1/CMakeFiles/uninstall.dir
-/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/build/turtlesimplus_control_exam1/CMakeFiles/turtlesimplus_control_exam1_uninstall.dir
-/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/build/turtlesimplus_control_exam1/CMakeFiles/test.dir
-/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/build/turtlesimplus_control_exam1/CMakeFiles/edit_cache.dir
-/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/build/turtlesimplus_control_exam1/CMakeFiles/rebuild_cache.dir
-/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/build/turtlesimplus_control_exam1/CMakeFiles/list_install_components.dir
-/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/build/turtlesimplus_control_exam1/CMakeFiles/install.dir
-/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/build/turtlesimplus_control_exam1/CMakeFiles/install/local.dir
-/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/build/turtlesimplus_control_exam1/CMakeFiles/install/strip.dir

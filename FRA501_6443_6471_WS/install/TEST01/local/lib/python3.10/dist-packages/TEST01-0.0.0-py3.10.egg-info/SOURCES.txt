@@ -1,7 +1,0 @@
-setup.py
-TEST01/__init__.py
-TEST01/dummy_module.py
-TEST01.egg-info/PKG-INFO
-TEST01.egg-info/SOURCES.txt
-TEST01.egg-info/dependency_links.txt
-TEST01.egg-info/top_level.txt

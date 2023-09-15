@@ -28,6 +28,9 @@ ament_python_install_package(${PROJECT_NAME})
 # Install Python executables
 install(PROGRAMS
   scripts/Foxy_controller.py
+  scripts/Noetic_controller.py
+  scripts/Humble_controller.py
+  scripts/Iron_controller.py
   scripts/Foxy_scheduler.py
   DESTINATION lib/${PROJECT_NAME}
 )

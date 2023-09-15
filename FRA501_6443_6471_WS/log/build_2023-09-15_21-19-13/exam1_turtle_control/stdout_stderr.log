@@ -1,0 +1,27 @@
+[100%] Built target cpp_node_test
+[100%] Built target ament_cmake_python_copy_exam1_turtle_control
+running egg_info
+writing exam1_turtle_control.egg-info/PKG-INFO
+writing dependency_links to exam1_turtle_control.egg-info/dependency_links.txt
+writing top-level names to exam1_turtle_control.egg-info/top_level.txt
+reading manifest file 'exam1_turtle_control.egg-info/SOURCES.txt'
+writing manifest file 'exam1_turtle_control.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_exam1_turtle_control_egg
+-- Install configuration: ""
+-- Up-to-date: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/exam1_turtle_control/share/exam1_turtle_control/environment/pythonpath.sh
+-- Up-to-date: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/exam1_turtle_control/share/exam1_turtle_control/environment/pythonpath.dsv
+-- Up-to-date: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/exam1_turtle_control/local/lib/python3.10/dist-packages/exam1_turtle_control-0.0.0-py3.10.egg-info
+-- Installing: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/exam1_turtle_control/local/lib/python3.10/dist-packages/exam1_turtle_control-0.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/exam1_turtle_control/local/lib/python3.10/dist-packages/exam1_turtle_control-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/exam1_turtle_control/local/lib/python3.10/dist-packages/exam1_turtle_control-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/exam1_turtle_control/local/lib/python3.10/dist-packages/exam1_turtle_control-0.0.0-py3.10.egg-info/top_level.txt
+-- Up-to-date: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/exam1_turtle_control/local/lib/python3.10/dist-packages/exam1_turtle_control
+-- Up-to-date: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/exam1_turtle_control/local/lib/python3.10/dist-packages/exam1_turtle_control/dummy_module.py
+-- Up-to-date: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/exam1_turtle_control/local/lib/python3.10/dist-packages/exam1_turtle_control/__init__.py
+Listing '/home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/exam1_turtle_control/local/lib/python3.10/dist-packages/exam1_turtle_control'...
+[31mCMake Error at cmake_install.cmake:70 (file):
+  file INSTALL cannot find
+  "/home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/src/exam1_turtle_control/scripts/Foxy_controller.py":
+  No such file or directory.
+
+[0m

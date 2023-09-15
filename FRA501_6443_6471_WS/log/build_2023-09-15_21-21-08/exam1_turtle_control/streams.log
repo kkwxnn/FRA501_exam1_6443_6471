@@ -1,0 +1,50 @@
+[0.058s] Invoking command in '/home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/build/exam1_turtle_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/peerawat/fra501_ws/install/pkg1:/opt/ros/humble /usr/bin/cmake --build /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/build/exam1_turtle_control -- -j2 -l2
+[0.169s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.651s] -- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)
+[0.737s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.742s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.762s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.785s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.819s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.990s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.000s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.370s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.826s] -- Found rclpy: 3.3.9 (/opt/ros/humble/share/rclpy/cmake)
+[2.387s] -- Configuring done
+[2.414s] -- Generating done
+[2.418s] -- Build files have been written to: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/build/exam1_turtle_control
+[2.476s] [35m[1mConsolidate compiler generated dependencies of target cpp_node_test[0m
+[2.506s] [100%] Built target cpp_node_test
+[2.525s] [100%] Built target ament_cmake_python_copy_exam1_turtle_control
+[3.252s] running egg_info
+[3.254s] writing exam1_turtle_control.egg-info/PKG-INFO
+[3.257s] writing dependency_links to exam1_turtle_control.egg-info/dependency_links.txt
+[3.264s] writing top-level names to exam1_turtle_control.egg-info/top_level.txt
+[3.270s] reading manifest file 'exam1_turtle_control.egg-info/SOURCES.txt'
+[3.273s] writing manifest file 'exam1_turtle_control.egg-info/SOURCES.txt'
+[3.340s] [100%] Built target ament_cmake_python_build_exam1_turtle_control_egg
+[3.384s] Invoked command in '/home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/build/exam1_turtle_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/peerawat/fra501_ws/install/pkg1:/opt/ros/humble /usr/bin/cmake --build /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/build/exam1_turtle_control -- -j2 -l2
+[3.483s] Invoking command in '/home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/build/exam1_turtle_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/peerawat/fra501_ws/install/pkg1:/opt/ros/humble /usr/bin/cmake --install /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/build/exam1_turtle_control
+[3.503s] -- Install configuration: ""
+[3.503s] -- Up-to-date: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/exam1_turtle_control/share/exam1_turtle_control/environment/pythonpath.sh
+[3.503s] -- Installing: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/exam1_turtle_control/share/exam1_turtle_control/environment/pythonpath.dsv
+[3.503s] -- Up-to-date: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/exam1_turtle_control/local/lib/python3.10/dist-packages/exam1_turtle_control-0.0.0-py3.10.egg-info
+[3.504s] -- Installing: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/exam1_turtle_control/local/lib/python3.10/dist-packages/exam1_turtle_control-0.0.0-py3.10.egg-info/PKG-INFO
+[3.520s] -- Installing: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/exam1_turtle_control/local/lib/python3.10/dist-packages/exam1_turtle_control-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.521s] -- Installing: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/exam1_turtle_control/local/lib/python3.10/dist-packages/exam1_turtle_control-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.521s] -- Installing: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/exam1_turtle_control/local/lib/python3.10/dist-packages/exam1_turtle_control-0.0.0-py3.10.egg-info/top_level.txt
+[3.521s] -- Up-to-date: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/exam1_turtle_control/local/lib/python3.10/dist-packages/exam1_turtle_control
+[3.521s] -- Up-to-date: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/exam1_turtle_control/local/lib/python3.10/dist-packages/exam1_turtle_control/dummy_module.py
+[3.522s] -- Up-to-date: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/exam1_turtle_control/local/lib/python3.10/dist-packages/exam1_turtle_control/__init__.py
+[3.644s] Listing '/home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/exam1_turtle_control/local/lib/python3.10/dist-packages/exam1_turtle_control'...
+[3.652s] -- Up-to-date: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/exam1_turtle_control/lib/exam1_turtle_control/Foxy_controller.py
+[3.652s] -- Up-to-date: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/exam1_turtle_control/lib/exam1_turtle_control/Noetic_controller.py
+[3.652s] -- Installing: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/exam1_turtle_control/lib/exam1_turtle_control/Humble_controller.py
+[3.653s] -- Installing: /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/exam1_turtle_control/lib/exam1_turtle_control/Iron_controller.py
+[3.653s] [31mCMake Error at cmake_install.cmake:70 (file):
+[3.653s]   file INSTALL cannot find
+[3.653s]   "/home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/src/exam1_turtle_control/scripts/scheduler/Foxy_scheduler.py":
+[3.653s]   No such file or directory.
+[3.654s] 
+[3.654s] [0m
+[3.656s] Invoked command in '/home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/build/exam1_turtle_control' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/peerawat/fra501_ws/install/pkg1:/opt/ros/humble /usr/bin/cmake --install /home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/build/exam1_turtle_control

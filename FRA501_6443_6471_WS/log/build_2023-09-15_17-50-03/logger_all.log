@@ -1,0 +1,294 @@
+[1.059s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.060s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=2, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f33336c2350>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f33337d1750>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f33337d1750>>)
+[1.167s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.167s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.167s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.168s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.168s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.168s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.168s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS'
+[1.169s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.169s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.169s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.169s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.170s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.170s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.170s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.170s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.170s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.199s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.199s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.200s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.200s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.200s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.200s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.201s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.201s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.201s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.201s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.201s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.202s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.202s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.202s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.202s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.203s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.203s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.203s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.203s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.203s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.204s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.204s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.204s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.204s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.205s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.205s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.205s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.205s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus) by extensions ['ignore', 'ignore_ament_install']
+[1.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus) by extension 'ignore'
+[1.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus) by extension 'ignore_ament_install'
+[1.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus) by extensions ['colcon_pkg']
+[1.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus) by extension 'colcon_pkg'
+[1.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus) by extensions ['colcon_meta']
+[1.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus) by extension 'colcon_meta'
+[1.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus) by extensions ['ros']
+[1.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus) by extension 'ros'
+[1.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus) by extensions ['cmake', 'python']
+[1.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus) by extension 'cmake'
+[1.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus) by extension 'python'
+[1.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus) by extensions ['python_setup_py']
+[1.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus) by extension 'python_setup_py'
+[1.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus/turtlesim_plus) by extensions ['ignore', 'ignore_ament_install']
+[1.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus/turtlesim_plus) by extension 'ignore'
+[1.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus/turtlesim_plus) by extension 'ignore_ament_install'
+[1.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus/turtlesim_plus) by extensions ['colcon_pkg']
+[1.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus/turtlesim_plus) by extension 'colcon_pkg'
+[1.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus/turtlesim_plus) by extensions ['colcon_meta']
+[1.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus/turtlesim_plus) by extension 'colcon_meta'
+[1.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus/turtlesim_plus) by extensions ['ros']
+[1.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus/turtlesim_plus) by extension 'ros'
+[1.224s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlesim_plus/turtlesim_plus' with type 'ros.ament_cmake' and name 'turtlesim_plus'
+[1.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus/turtlesim_plus_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[1.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus/turtlesim_plus_interfaces) by extension 'ignore'
+[1.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus/turtlesim_plus_interfaces) by extension 'ignore_ament_install'
+[1.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus/turtlesim_plus_interfaces) by extensions ['colcon_pkg']
+[1.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus/turtlesim_plus_interfaces) by extension 'colcon_pkg'
+[1.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus/turtlesim_plus_interfaces) by extensions ['colcon_meta']
+[1.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus/turtlesim_plus_interfaces) by extension 'colcon_meta'
+[1.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus/turtlesim_plus_interfaces) by extensions ['ros']
+[1.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus/turtlesim_plus_interfaces) by extension 'ros'
+[1.230s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlesim_plus/turtlesim_plus_interfaces' with type 'ros.ament_cmake' and name 'turtlesim_plus_interfaces'
+[1.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesimplus_control_exam1) by extensions ['ignore', 'ignore_ament_install']
+[1.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesimplus_control_exam1) by extension 'ignore'
+[1.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesimplus_control_exam1) by extension 'ignore_ament_install'
+[1.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesimplus_control_exam1) by extensions ['colcon_pkg']
+[1.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesimplus_control_exam1) by extension 'colcon_pkg'
+[1.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesimplus_control_exam1) by extensions ['colcon_meta']
+[1.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesimplus_control_exam1) by extension 'colcon_meta'
+[1.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesimplus_control_exam1) by extensions ['ros']
+[1.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesimplus_control_exam1) by extension 'ros'
+[1.233s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlesimplus_control_exam1' with type 'ros.ament_cmake' and name 'turtlesimplus_control_exam1'
+[1.233s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.233s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.233s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.233s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.233s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.290s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.290s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.302s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/kkwxnn/test_ws/install
+[1.310s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/kkwxnn/fra501_ws/install
+[1.313s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 284 installed packages in /opt/ros/humble
+[1.316s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.463s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_plus' build argument 'cmake_args' from command line to 'None'
+[1.464s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_plus' build argument 'cmake_target' from command line to 'None'
+[1.464s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_plus' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.464s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_plus' build argument 'cmake_clean_cache' from command line to 'False'
+[1.464s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_plus' build argument 'cmake_clean_first' from command line to 'False'
+[1.464s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_plus' build argument 'cmake_force_configure' from command line to 'False'
+[1.464s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_plus' build argument 'ament_cmake_args' from command line to 'None'
+[1.464s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_plus' build argument 'catkin_cmake_args' from command line to 'None'
+[1.464s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_plus' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.464s] DEBUG:colcon.colcon_core.verb:Building package 'turtlesim_plus' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/build/turtlesim_plus', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesim_plus', 'merge_install': False, 'path': '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/src/turtlesim_plus/turtlesim_plus', 'symlink_install': False, 'test_result_base': None}
+[1.466s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_plus_interfaces' build argument 'cmake_args' from command line to 'None'
+[1.466s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_plus_interfaces' build argument 'cmake_target' from command line to 'None'
+[1.466s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_plus_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.466s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_plus_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[1.466s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_plus_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[1.466s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_plus_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[1.466s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_plus_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[1.466s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_plus_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[1.466s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_plus_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.466s] DEBUG:colcon.colcon_core.verb:Building package 'turtlesim_plus_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/build/turtlesim_plus_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesim_plus_interfaces', 'merge_install': False, 'path': '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/src/turtlesim_plus/turtlesim_plus_interfaces', 'symlink_install': False, 'test_result_base': None}
+[1.468s] Level 5:colcon.colcon_core.verb:set package 'turtlesimplus_control_exam1' build argument 'cmake_args' from command line to 'None'
+[1.468s] Level 5:colcon.colcon_core.verb:set package 'turtlesimplus_control_exam1' build argument 'cmake_target' from command line to 'None'
+[1.468s] Level 5:colcon.colcon_core.verb:set package 'turtlesimplus_control_exam1' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.468s] Level 5:colcon.colcon_core.verb:set package 'turtlesimplus_control_exam1' build argument 'cmake_clean_cache' from command line to 'False'
+[1.468s] Level 5:colcon.colcon_core.verb:set package 'turtlesimplus_control_exam1' build argument 'cmake_clean_first' from command line to 'False'
+[1.468s] Level 5:colcon.colcon_core.verb:set package 'turtlesimplus_control_exam1' build argument 'cmake_force_configure' from command line to 'False'
+[1.468s] Level 5:colcon.colcon_core.verb:set package 'turtlesimplus_control_exam1' build argument 'ament_cmake_args' from command line to 'None'
+[1.468s] Level 5:colcon.colcon_core.verb:set package 'turtlesimplus_control_exam1' build argument 'catkin_cmake_args' from command line to 'None'
+[1.468s] Level 5:colcon.colcon_core.verb:set package 'turtlesimplus_control_exam1' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.468s] DEBUG:colcon.colcon_core.verb:Building package 'turtlesimplus_control_exam1' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/build/turtlesimplus_control_exam1', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesimplus_control_exam1', 'merge_install': False, 'path': '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/src/turtlesimplus_control_exam1', 'symlink_install': False, 'test_result_base': None}
+[1.469s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.473s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.474s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/src/turtlesim_plus/turtlesim_plus' with build type 'ament_cmake'
+[1.475s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/src/turtlesim_plus/turtlesim_plus'
+[1.489s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.489s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.490s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.503s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/src/turtlesim_plus/turtlesim_plus_interfaces' with build type 'ament_cmake'
+[1.503s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/src/turtlesim_plus/turtlesim_plus_interfaces'
+[1.506s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.507s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.538s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/build/turtlesim_plus': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/src/turtlesim_plus/turtlesim_plus -DCMAKE_INSTALL_PREFIX=/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesim_plus
+[1.569s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/build/turtlesim_plus_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/src/turtlesim_plus/turtlesim_plus_interfaces -DCMAKE_INSTALL_PREFIX=/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesim_plus_interfaces
+[6.054s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/build/turtlesim_plus' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/src/turtlesim_plus/turtlesim_plus -DCMAKE_INSTALL_PREFIX=/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesim_plus
+[6.058s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/build/turtlesim_plus': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/build/turtlesim_plus -- -j2 -l2
+[6.526s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/build/turtlesim_plus_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/src/turtlesim_plus/turtlesim_plus_interfaces -DCMAKE_INSTALL_PREFIX=/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesim_plus_interfaces
+[6.526s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/build/turtlesim_plus_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/build/turtlesim_plus_interfaces -- -j2 -l2
+[7.488s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/build/turtlesim_plus' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/build/turtlesim_plus -- -j2 -l2
+[7.572s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/build/turtlesim_plus': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/build/turtlesim_plus
+[7.893s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlesim_plus)
+[7.906s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/build/turtlesim_plus' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/build/turtlesim_plus
+[7.922s] Level 1:colcon.colcon_core.environment:checking '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesim_plus' for CMake module files
+[7.924s] Level 1:colcon.colcon_core.environment:checking '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesim_plus' for CMake config files
+[7.924s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim_plus', 'cmake_prefix_path')
+[7.927s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesim_plus/share/turtlesim_plus/hook/cmake_prefix_path.ps1'
+[7.930s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesim_plus/share/turtlesim_plus/hook/cmake_prefix_path.dsv'
+[7.935s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesim_plus/share/turtlesim_plus/hook/cmake_prefix_path.sh'
+[7.938s] Level 1:colcon.colcon_core.environment:checking '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesim_plus/lib'
+[7.939s] Level 1:colcon.colcon_core.environment:checking '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesim_plus/bin'
+[7.939s] Level 1:colcon.colcon_core.environment:checking '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesim_plus/lib/pkgconfig/turtlesim_plus.pc'
+[7.940s] Level 1:colcon.colcon_core.environment:checking '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesim_plus/lib/python3.10/site-packages'
+[7.941s] Level 1:colcon.colcon_core.environment:checking '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesim_plus/bin'
+[7.943s] INFO:colcon.colcon_core.shell:Creating package script '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesim_plus/share/turtlesim_plus/package.ps1'
+[7.946s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesim_plus/share/turtlesim_plus/package.dsv'
+[7.950s] INFO:colcon.colcon_core.shell:Creating package script '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesim_plus/share/turtlesim_plus/package.sh'
+[7.953s] INFO:colcon.colcon_core.shell:Creating package script '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesim_plus/share/turtlesim_plus/package.bash'
+[7.956s] INFO:colcon.colcon_core.shell:Creating package script '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesim_plus/share/turtlesim_plus/package.zsh'
+[7.959s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesim_plus/share/colcon-core/packages/turtlesim_plus)
+[8.018s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlesim_plus)
+[8.022s] Level 1:colcon.colcon_core.environment:checking '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesim_plus' for CMake module files
+[8.023s] Level 1:colcon.colcon_core.environment:checking '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesim_plus' for CMake config files
+[8.024s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim_plus', 'cmake_prefix_path')
+[8.026s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesim_plus/share/turtlesim_plus/hook/cmake_prefix_path.ps1'
+[8.028s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesim_plus/share/turtlesim_plus/hook/cmake_prefix_path.dsv'
+[8.032s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesim_plus/share/turtlesim_plus/hook/cmake_prefix_path.sh'
+[8.037s] Level 1:colcon.colcon_core.environment:checking '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesim_plus/lib'
+[8.037s] Level 1:colcon.colcon_core.environment:checking '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesim_plus/bin'
+[8.038s] Level 1:colcon.colcon_core.environment:checking '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesim_plus/lib/pkgconfig/turtlesim_plus.pc'
+[8.038s] Level 1:colcon.colcon_core.environment:checking '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesim_plus/lib/python3.10/site-packages'
+[8.039s] Level 1:colcon.colcon_core.environment:checking '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesim_plus/bin'
+[8.043s] INFO:colcon.colcon_core.shell:Creating package script '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesim_plus/share/turtlesim_plus/package.ps1'
+[8.045s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesim_plus/share/turtlesim_plus/package.dsv'
+[8.048s] INFO:colcon.colcon_core.shell:Creating package script '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesim_plus/share/turtlesim_plus/package.sh'
+[8.051s] INFO:colcon.colcon_core.shell:Creating package script '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesim_plus/share/turtlesim_plus/package.bash'
+[8.053s] INFO:colcon.colcon_core.shell:Creating package script '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesim_plus/share/turtlesim_plus/package.zsh'
+[8.055s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesim_plus/share/colcon-core/packages/turtlesim_plus)
+[8.058s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/src/turtlesimplus_control_exam1' with build type 'ament_cmake'
+[8.060s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/src/turtlesimplus_control_exam1'
+[8.062s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.062s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.118s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/build/turtlesimplus_control_exam1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/build/turtlesimplus_control_exam1 -- -j2 -l2
+[8.380s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/build/turtlesimplus_control_exam1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/build/turtlesimplus_control_exam1 -- -j2 -l2
+[8.595s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/build/turtlesimplus_control_exam1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/build/turtlesimplus_control_exam1
+[8.673s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlesimplus_control_exam1)
+[8.676s] Level 1:colcon.colcon_core.environment:checking '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesimplus_control_exam1' for CMake module files
+[8.677s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/build/turtlesimplus_control_exam1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/build/turtlesimplus_control_exam1
+[8.677s] Level 1:colcon.colcon_core.environment:checking '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesimplus_control_exam1' for CMake config files
+[8.677s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesimplus_control_exam1', 'cmake_prefix_path')
+[8.680s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesimplus_control_exam1/share/turtlesimplus_control_exam1/hook/cmake_prefix_path.ps1'
+[8.693s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesimplus_control_exam1/share/turtlesimplus_control_exam1/hook/cmake_prefix_path.dsv'
+[8.695s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesimplus_control_exam1/share/turtlesimplus_control_exam1/hook/cmake_prefix_path.sh'
+[8.705s] Level 1:colcon.colcon_core.environment:checking '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesimplus_control_exam1/bin'
+[8.705s] Level 1:colcon.colcon_core.environment:checking '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesimplus_control_exam1/lib/pkgconfig/turtlesimplus_control_exam1.pc'
+[8.705s] Level 1:colcon.colcon_core.environment:checking '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesimplus_control_exam1/lib/python3.10/site-packages'
+[8.706s] Level 1:colcon.colcon_core.environment:checking '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesimplus_control_exam1/bin'
+[8.708s] INFO:colcon.colcon_core.shell:Creating package script '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesimplus_control_exam1/share/turtlesimplus_control_exam1/package.ps1'
+[8.728s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesimplus_control_exam1/share/turtlesimplus_control_exam1/package.dsv'
+[8.737s] INFO:colcon.colcon_core.shell:Creating package script '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesimplus_control_exam1/share/turtlesimplus_control_exam1/package.sh'
+[8.739s] INFO:colcon.colcon_core.shell:Creating package script '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesimplus_control_exam1/share/turtlesimplus_control_exam1/package.bash'
+[8.740s] INFO:colcon.colcon_core.shell:Creating package script '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesimplus_control_exam1/share/turtlesimplus_control_exam1/package.zsh'
+[8.745s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesimplus_control_exam1/share/colcon-core/packages/turtlesimplus_control_exam1)
+[9.074s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlesimplus_control_exam1)
+[9.077s] Level 1:colcon.colcon_core.environment:checking '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesimplus_control_exam1' for CMake module files
+[9.078s] Level 1:colcon.colcon_core.environment:checking '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesimplus_control_exam1' for CMake config files
+[9.079s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesimplus_control_exam1', 'cmake_prefix_path')
+[9.090s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesimplus_control_exam1/share/turtlesimplus_control_exam1/hook/cmake_prefix_path.ps1'
+[9.093s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesimplus_control_exam1/share/turtlesimplus_control_exam1/hook/cmake_prefix_path.dsv'
+[9.096s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesimplus_control_exam1/share/turtlesimplus_control_exam1/hook/cmake_prefix_path.sh'
+[9.105s] Level 1:colcon.colcon_core.environment:checking '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesimplus_control_exam1/bin'
+[9.106s] Level 1:colcon.colcon_core.environment:checking '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesimplus_control_exam1/lib/pkgconfig/turtlesimplus_control_exam1.pc'
+[9.106s] Level 1:colcon.colcon_core.environment:checking '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesimplus_control_exam1/lib/python3.10/site-packages'
+[9.106s] Level 1:colcon.colcon_core.environment:checking '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesimplus_control_exam1/bin'
+[9.113s] INFO:colcon.colcon_core.shell:Creating package script '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesimplus_control_exam1/share/turtlesimplus_control_exam1/package.ps1'
+[9.115s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesimplus_control_exam1/share/turtlesimplus_control_exam1/package.dsv'
+[9.121s] INFO:colcon.colcon_core.shell:Creating package script '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesimplus_control_exam1/share/turtlesimplus_control_exam1/package.sh'
+[9.122s] INFO:colcon.colcon_core.shell:Creating package script '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesimplus_control_exam1/share/turtlesimplus_control_exam1/package.bash'
+[9.124s] INFO:colcon.colcon_core.shell:Creating package script '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesimplus_control_exam1/share/turtlesimplus_control_exam1/package.zsh'
+[9.130s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesimplus_control_exam1/share/colcon-core/packages/turtlesimplus_control_exam1)
+[27.963s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/build/turtlesim_plus_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/build/turtlesim_plus_interfaces -- -j2 -l2
+[28.280s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/build/turtlesim_plus_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/build/turtlesim_plus_interfaces
+[28.583s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlesim_plus_interfaces)
+[28.585s] Level 1:colcon.colcon_core.environment:checking '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesim_plus_interfaces' for CMake module files
+[28.586s] Level 1:colcon.colcon_core.environment:checking '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesim_plus_interfaces' for CMake config files
+[28.587s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim_plus_interfaces', 'cmake_prefix_path')
+[28.590s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesim_plus_interfaces/share/turtlesim_plus_interfaces/hook/cmake_prefix_path.ps1'
+[28.592s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/build/turtlesim_plus_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/build/turtlesim_plus_interfaces
+[28.593s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesim_plus_interfaces/share/turtlesim_plus_interfaces/hook/cmake_prefix_path.dsv'
+[28.594s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesim_plus_interfaces/share/turtlesim_plus_interfaces/hook/cmake_prefix_path.sh'
+[28.595s] Level 1:colcon.colcon_core.environment:checking '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesim_plus_interfaces/lib'
+[28.595s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim_plus_interfaces', 'ld_library_path_lib')
+[28.597s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesim_plus_interfaces/share/turtlesim_plus_interfaces/hook/ld_library_path_lib.ps1'
+[28.597s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesim_plus_interfaces/share/turtlesim_plus_interfaces/hook/ld_library_path_lib.dsv'
+[28.598s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesim_plus_interfaces/share/turtlesim_plus_interfaces/hook/ld_library_path_lib.sh'
+[28.599s] Level 1:colcon.colcon_core.environment:checking '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesim_plus_interfaces/bin'
+[28.599s] Level 1:colcon.colcon_core.environment:checking '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesim_plus_interfaces/lib/pkgconfig/turtlesim_plus_interfaces.pc'
+[28.599s] Level 1:colcon.colcon_core.environment:checking '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesim_plus_interfaces/lib/python3.10/site-packages'
+[28.599s] Level 1:colcon.colcon_core.environment:checking '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesim_plus_interfaces/bin'
+[28.601s] INFO:colcon.colcon_core.shell:Creating package script '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesim_plus_interfaces/share/turtlesim_plus_interfaces/package.ps1'
+[28.602s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesim_plus_interfaces/share/turtlesim_plus_interfaces/package.dsv'
+[28.603s] INFO:colcon.colcon_core.shell:Creating package script '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesim_plus_interfaces/share/turtlesim_plus_interfaces/package.sh'
+[28.605s] INFO:colcon.colcon_core.shell:Creating package script '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesim_plus_interfaces/share/turtlesim_plus_interfaces/package.bash'
+[28.605s] INFO:colcon.colcon_core.shell:Creating package script '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesim_plus_interfaces/share/turtlesim_plus_interfaces/package.zsh'
+[28.606s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesim_plus_interfaces/share/colcon-core/packages/turtlesim_plus_interfaces)
+[28.913s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlesim_plus_interfaces)
+[28.916s] Level 1:colcon.colcon_core.environment:checking '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesim_plus_interfaces' for CMake module files
+[28.917s] Level 1:colcon.colcon_core.environment:checking '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesim_plus_interfaces' for CMake config files
+[28.917s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim_plus_interfaces', 'cmake_prefix_path')
+[28.919s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesim_plus_interfaces/share/turtlesim_plus_interfaces/hook/cmake_prefix_path.ps1'
+[28.921s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesim_plus_interfaces/share/turtlesim_plus_interfaces/hook/cmake_prefix_path.dsv'
+[28.923s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesim_plus_interfaces/share/turtlesim_plus_interfaces/hook/cmake_prefix_path.sh'
+[28.926s] Level 1:colcon.colcon_core.environment:checking '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesim_plus_interfaces/lib'
+[28.926s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim_plus_interfaces', 'ld_library_path_lib')
+[28.927s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesim_plus_interfaces/share/turtlesim_plus_interfaces/hook/ld_library_path_lib.ps1'
+[28.929s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesim_plus_interfaces/share/turtlesim_plus_interfaces/hook/ld_library_path_lib.dsv'
+[28.931s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesim_plus_interfaces/share/turtlesim_plus_interfaces/hook/ld_library_path_lib.sh'
+[28.932s] Level 1:colcon.colcon_core.environment:checking '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesim_plus_interfaces/bin'
+[28.933s] Level 1:colcon.colcon_core.environment:checking '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesim_plus_interfaces/lib/pkgconfig/turtlesim_plus_interfaces.pc'
+[28.933s] Level 1:colcon.colcon_core.environment:checking '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesim_plus_interfaces/lib/python3.10/site-packages'
+[28.933s] Level 1:colcon.colcon_core.environment:checking '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesim_plus_interfaces/bin'
+[28.935s] INFO:colcon.colcon_core.shell:Creating package script '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesim_plus_interfaces/share/turtlesim_plus_interfaces/package.ps1'
+[28.937s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesim_plus_interfaces/share/turtlesim_plus_interfaces/package.dsv'
+[28.940s] INFO:colcon.colcon_core.shell:Creating package script '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesim_plus_interfaces/share/turtlesim_plus_interfaces/package.sh'
+[28.942s] INFO:colcon.colcon_core.shell:Creating package script '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesim_plus_interfaces/share/turtlesim_plus_interfaces/package.bash'
+[28.944s] INFO:colcon.colcon_core.shell:Creating package script '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesim_plus_interfaces/share/turtlesim_plus_interfaces/package.zsh'
+[28.945s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/turtlesim_plus_interfaces/share/colcon-core/packages/turtlesim_plus_interfaces)
+[28.947s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[28.949s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[28.950s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[28.950s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[28.978s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[28.978s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[28.979s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[29.034s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[29.038s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/local_setup.ps1'
+[29.042s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/_local_setup_util_ps1.py'
+[29.047s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/setup.ps1'
+[29.052s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/local_setup.sh'
+[29.055s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/_local_setup_util_sh.py'
+[29.057s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/setup.sh'
+[29.062s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/local_setup.bash'
+[29.064s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/setup.bash'
+[29.070s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/local_setup.zsh'
+[29.073s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kkwxnn/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/install/setup.zsh'

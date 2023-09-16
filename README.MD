@@ -17,7 +17,7 @@ ros2 launch exam1_turtle_control FIBO_following_launch.py
 ```
 ## System Architecture
 <p align="center">
-  <img src="turtlesim_control/doc/system_interface_diagram.png">
+  <img src="FRA501_6443_6471_WS/src/exam1_turtle_control/doc/system_interface_diagram.png">
 </p>
 
 FIBO_following.launch.py can do

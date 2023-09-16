@@ -36,7 +36,7 @@ class Foxy_Controller(Node):
 
 
     def set_goal_point_callback(self, request: SendPosition.Request, response: SendPosition.Response):
-        self.turtle_target_pose = [request.position.x, request.position.y + 2.0]
+        self.turtle_target_pose = [request.position.x, request.position.y]
         print(self.turtle_target_pose)
         self.isControllerEna = True
         return response

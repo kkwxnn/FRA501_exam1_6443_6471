@@ -6,16 +6,22 @@ from rclpy.node import Node
 from rclpy.parameter import Parameter
 from turtlesim.msg import Pose
 from geometry_msgs.msg import Point,Twist
+from turtlesim_interfaces.srv import SendPosition
+from turtlesim_plus_interfaces.srv import GivePosition
+from std_srvs.srv import Empty
 import math
 
 class Humble_Controller(Node):
     def __init__(self):
         super().__init__('Humble_controller')
+        name = 'Humble'
         self.create_timer(0.01,self.timer_callback)
-        self.pub_cmd_vel = self.create_publisher(Twist, "Humble/cmd_vel",10)
+        self.pub_cmd_vel = self.create_publisher(Twist, name+"/cmd_vel",10)
 
-        self.create_subscription(Pose, "Humble/pose", self.turtle_pose_callback, 10)
-        self.create_subscription(Point, "mouse_position", self.target_pose_callback,10)
+        self.create_subscription(Pose, name+"/pose", self.turtle_pose_callback, 10)
+        self.create_service(SendPosition,name+'/GoalPoint',self.set_goal_point_callback)
+        self.noti_arrival_client = self.create_client(Empty,name+'/noti_arrival')
+        self.spawn_pizza_client = self.create_client(GivePosition,"spawn_pizza")
 
         self.turtle_target_pose = [0.0, 0.0]
         self.turtle_current_pose = [0.0, 0.0, 0.0]
@@ -28,21 +34,27 @@ class Humble_Controller(Node):
         self.A_gain = self.get_parameter('Angular_gain').value
         self.Tol = self.get_parameter('tolerance').value
 
-        
-    def target_pose_callback(self, msg):
-        self.turtle_target_pose = [msg.x, msg.y]
+
+    def set_goal_point_callback(self, request: SendPosition.Request, response: SendPosition.Response):
+        self.turtle_target_pose = [request.position.x + 2.0, request.position.y +2.0]
         print(self.turtle_target_pose)
         self.isControllerEna = True
+        return response
 
     def turtle_pose_callback(self,msg):
         self.turtle_current_pose =[msg.x, msg.y, msg.theta]
-        # print(self.turtle_current_pose)
 
     def cmd_vel_pub(self, vx,w):
         cmd_vel = Twist()
         cmd_vel.linear.x = vx
         cmd_vel.angular.z = w
         self.pub_cmd_vel.publish(cmd_vel)
+
+    def spawn_pizza(self,position):
+        pizza_pos = GivePosition.Request()
+        pizza_pos.x = position[0]
+        pizza_pos.y = position[1]
+        self.spawn_pizza_client.call_async(pizza_pos)
 
     def timer_callback(self):
         if self.isControllerEna:
@@ -58,8 +70,10 @@ class Humble_Controller(Node):
         dis_u = dis_err*self.L_gain
         ori_u = ori_err*self.A_gain
         if dis_err <= self.Tol:
-            self.isControllerEna = False
             self.cmd_vel_pub(0.0,0.0)
+            self.spawn_pizza(self.turtle_target_pose)
+            self.noti_arrival_client.call_async(Empty.Request())
+            self.isControllerEna = False
         else:
             self.cmd_vel_pub(dis_u,ori_u)
 

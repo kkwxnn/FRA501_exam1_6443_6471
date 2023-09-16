@@ -32,6 +32,9 @@ install(PROGRAMS
   scripts/Humble_controller.py
   scripts/Iron_controller.py
   scripts/Foxy_scheduler.py
+  scripts/Noetic_scheduler.py
+  scripts/Humble_scheduler.py
+  scripts/Iron_scheduler.py
   DESTINATION lib/${PROJECT_NAME}
 )
 

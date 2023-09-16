@@ -10,27 +10,30 @@ from std_srvs.srv import Empty
 import yaml, argparse
 
 class Foxy_scheduler(Node):
-    def __init__(self, file_path:str):
+    def __init__(self):
         super().__init__('Foxy_scheduler')
+        name = 'Foxy'
         self.idx = 0
-        self.goal_point_client = self.create_client(SendPosition,'GoalPoint')
-        self.create_service(Empty,'noti_arrival',self.noti_arrival_callback)
+        self.goal_point_client = self.create_client(SendPosition,name+'/GoalPoint')
+        self.create_service(Empty,name+'/noti_arrival',self.noti_arrival_callback)
 
-        with open(file=file_path, mode= 'r') as file:
-            data = yaml.load(file, Loader=yaml.SafeLoader)
-        self.via_point = data['via_point']
-        self.num_via_point = len(self.via_point)
+        self.declare_parameter('x_point')
+        self.declare_parameter('y_point')
+        self.x_point = self.get_parameter('x_point').value
+        self.y_point = self.get_parameter('y_point').value
+        self.num_via_point = len(self.x_point)
         self.send_goal()
 
     def update(self):
-        if self.idx < self.num_via_point -1:
+        if self.idx < self.num_via_point - 1:
             self.idx += 1
             self.send_goal()
         else :
             self.complete()
 
     def send_goal(self):
-        x,y = self.via_point[self.idx]
+        x = self.x_point[self.idx]
+        y = self.y_point[self.idx]
         request = SendPosition.Request()
         request.position.x = x
         request.position.y = y

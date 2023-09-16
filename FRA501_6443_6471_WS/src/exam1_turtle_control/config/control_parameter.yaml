@@ -1,4 +1,4 @@
 ros__parameters:
-  Linear_gain: 10.0
-  Angular_gain: 10.0
+  Linear_gain: 5.0
+  Angular_gain: 7.0
   tolerance: 0.1

@@ -67,6 +67,34 @@ def generate_launch_description():
         parameters=[new_Iron_config_path]
     )
 
+    Foxy_path = os.path.join(my_pkg,'via_point','F_path.yaml')
+    Foxy_scheduler = Node(
+        package='exam1_turtle_control',
+        executable='Foxy_scheduler.py',
+        parameters=[Foxy_path]
+    )
+
+    Noetic_path = os.path.join(my_pkg,'via_point','I_path.yaml')
+    Noetic_scheduler = Node(
+        package='exam1_turtle_control',
+        executable='Noetic_scheduler.py',
+        parameters=[Noetic_path]
+    )
+
+    Humble_path = os.path.join(my_pkg,'via_point','B_path.yaml')
+    Humble_scheduler = Node(
+        package='exam1_turtle_control',
+        executable='Humble_scheduler.py',
+        parameters=[Humble_path]
+    )
+
+    Iron_path = os.path.join(my_pkg,'via_point','O_path.yaml')
+    Iron_scheduler = Node(
+        package='exam1_turtle_control',
+        executable='Iron_scheduler.py',
+        parameters=[Iron_path]
+    )
+
     launch_description = LaunchDescription()
     launch_description.add_action(turtlesim)
     launch_description.add_action(kill_turtle)
@@ -78,5 +106,9 @@ def generate_launch_description():
     launch_description.add_action(Noetic_controller)
     launch_description.add_action(Humble_controller)
     launch_description.add_action(Iron_controller)
+    launch_description.add_action(Foxy_scheduler)
+    launch_description.add_action(Noetic_scheduler)
+    launch_description.add_action(Humble_scheduler)
+    launch_description.add_action(Iron_scheduler)
 
     return launch_description

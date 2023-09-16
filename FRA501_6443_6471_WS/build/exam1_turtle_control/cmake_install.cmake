@@ -73,6 +73,9 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     "/home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/src/exam1_turtle_control/scripts/Humble_controller.py"
     "/home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/src/exam1_turtle_control/scripts/Iron_controller.py"
     "/home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/src/exam1_turtle_control/scripts/Foxy_scheduler.py"
+    "/home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/src/exam1_turtle_control/scripts/Noetic_scheduler.py"
+    "/home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/src/exam1_turtle_control/scripts/Humble_scheduler.py"
+    "/home/peerawat/Documents/GitHub/FRA501_exam1_6443_6471/FRA501_6443_6471_WS/src/exam1_turtle_control/scripts/Iron_scheduler.py"
     )
 endif()
 

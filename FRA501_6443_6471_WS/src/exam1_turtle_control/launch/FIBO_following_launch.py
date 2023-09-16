@@ -10,9 +10,9 @@ def modify_config_namespace(path:str,new_path:str,nodename:str,namespace:str):
     with open(path,'r') as file:
         data = yaml.load(file,Loader=yaml.SafeLoader)
     nodename_data = {nodename: data}
-    namespace_data = {namespace: nodename_data}
+    # namespace_data = {namespace: nodename_data}
     with open(new_path,'w') as file:
-        yaml.dump(namespace_data,file)
+        yaml.dump(nodename_data,file)
 
 def generate_launch_description():
 

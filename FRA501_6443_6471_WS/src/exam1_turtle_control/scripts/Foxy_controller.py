@@ -19,7 +19,7 @@ class Foxy_Controller(Node):
 
         self.create_subscription(Pose, name+"/pose", self.turtle_pose_callback, 10)
         # self.create_service(SendPosition,name+'/GoalPoint',self.set_goal_point_callback)
-        self.noti_arrival_client = self.create_client(Empty,name+'/noti_arrival')
+        # self.noti_arrival_client = self.create_client(Empty,name+'/noti_arrival')
         self.create_subscription(Point, "/mouse_position", self.target_pose_callback,10)
 
         self.turtle_target_pose = [0.0, 0.0]
@@ -42,13 +42,10 @@ class Foxy_Controller(Node):
 
     def target_pose_callback(self,msg):
         self.turtle_target_pose = [msg.x,msg.y]
-        print(self.turtle_target_pose)
         self.isControllerEna =True
-
 
     def turtle_pose_callback(self,msg):
         self.turtle_current_pose =[msg.x, msg.y, msg.theta]
-        print(self.turtle_current_pose)
 
     def cmd_vel_pub(self, vx,w):
         cmd_vel = Twist()
@@ -70,8 +67,8 @@ class Foxy_Controller(Node):
         dis_u = dis_err*self.L_gain
         ori_u = ori_err*self.A_gain
         if dis_err <= self.Tol:
-            request = Empty()
-            self.noti_arrival_client.call_async(request)
+            # request = Empty()
+            # self.noti_arrival_client.call_async(request)
             self.isControllerEna = False
             self.cmd_vel_pub(0.0,0.0)
         else:

@@ -1,6 +1,4 @@
-Foxy:
-  Foxy_controller:
-    ros__parameters:
-      Linear_gain: 1.0
-      Angular_gain: 1.0
-      tolerance: 0.1
+ros__parameters:
+  Linear_gain: 1.0
+  Angular_gain: 5.0
+  tolerance: 0.1

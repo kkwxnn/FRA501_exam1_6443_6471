@@ -25,5 +25,5 @@ FIBO_following.launch.py can do
 1. Launch turtlesim_plus_node, Foxy_controller.py, Noetic_controller.py, Humble_controller.py, Iron_controller.py, Foxy_scheduler.py, Noetic_scheduler.py, Humble_scheduler.py, Iron_scheduler.py
 2. When turtlesim_plus_node starts, remove turtle1, then spawn 4 turtles (x=0.1, y=0.1, theta=0, name:Foxy, Noetic, Humble, Iron)
 3. Pass a configuration file (control_parameter.yaml) to the controller node as ROS parameters.
-{ros__parameters:{linear_gain:8.0,angular_gain:20.0,tolerance:0.1}}
+{ros__parameters:{linear_gain:5.0, angular_gain:7.0, tolerance:0.1}}
 4. Pass the full path to the via point file in the "via_point" directory of the package (F_path.yaml, I_path.yaml, B_path.yaml, O_path.yaml) to the each turtle scheduler.
